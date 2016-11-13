@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<div id="myDiv">This is a div element.</div>
+<br>
+<script>
+function myFunction() {
+var str = "Alkalosis";
+    document.getElementById("myDiv").style.background = "#0000FF";
+var txtOutput = document.getElementById("txtOutput");
+txtOutput.value = "Hi there, " + str +  "!"
+}
+
+</script>
+
+<button type="button" onclick="myFunction()">Set border</button>
+<input type="textbox" id="txtOutput" >
+</body>
+</html>
